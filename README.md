@@ -26,25 +26,25 @@ These values are generated from `results.json`, not estimated or copied. Rerun t
 
 | Measure | Local result |
 | --- | ---: |
-|  / comparison rows each | 2000 |
-|  / features / mean shift / current mean | 1.013892 |
-|  / features / mean shift / current std | 1.009222 |
-|  / features / mean shift / ks pvalue | 0.000000 |
-|  / features / mean shift / ks statistic | 0.421500 |
-|  / features / mean shift / psi | 1.063746 |
-|  / features / scale shift / current mean | -0.025503 |
-|  / features / scale shift / current std | 1.800434 |
-|  / features / scale shift / ks pvalue | 0.000000 |
-|  / features / scale shift / ks statistic | 0.149500 |
-|  / features / scale shift / psi | 0.365429 |
-|  / features / stable / current mean | 0.016121 |
-|  / features / stable / current std | 0.996385 |
-|  / features / stable / ks pvalue | 0.069322 |
-|  / features / stable / ks statistic | 0.041000 |
-|  / features / stable / psi | 0.011140 |
-|  / reference mean | -0.055135 |
-|  / reference rows | 2000 |
-|  / seed | 42 |
+| Comparison rows each | 2000 |
+| Mean shift: current mean | 1.013892 |
+| Mean shift: current standard deviation | 1.009222 |
+| Mean shift: KS p-value | 1.257e-159 |
+| Mean shift: KS statistic | 0.421500 |
+| Mean shift: PSI | 1.063746 |
+| Scale shift: current mean | -0.025503 |
+| Scale shift: current standard deviation | 1.800434 |
+| Scale shift: KS p-value | 6.604e-20 |
+| Scale shift: KS statistic | 0.149500 |
+| Scale shift: PSI | 0.365429 |
+| Stable: current mean | 0.016121 |
+| Stable: current standard deviation | 0.996385 |
+| Stable: KS p-value | 6.932e-02 |
+| Stable: KS statistic | 0.041000 |
+| Stable: PSI | 0.011140 |
+| Reference mean | -0.055135 |
+| Reference rows | 2000 |
+| Seed | 42 |
 
 `verification.txt` records the local test run. The included GitHub Actions workflow is a reproducible check, not a claim that remote CI has already passed.
 
