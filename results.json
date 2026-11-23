@@ -1,0 +1,30 @@
+{
+  "bins_source": "reference-only quantiles with infinite outer edges",
+  "comparison_rows_each": 2000,
+  "features": {
+    "mean_shift": {
+      "current_mean": 1.0138923850671506,
+      "current_std": 1.0092218222312905,
+      "ks_pvalue": 1.2565255152587799e-159,
+      "ks_statistic": 0.4215,
+      "psi": 1.0637463268368117
+    },
+    "scale_shift": {
+      "current_mean": -0.02550256268762896,
+      "current_std": 1.800433850672911,
+      "ks_pvalue": 6.603706674398051e-20,
+      "ks_statistic": 0.1495,
+      "psi": 0.36542930209915103
+    },
+    "stable": {
+      "current_mean": 0.016121094880150785,
+      "current_std": 0.9963848945056374,
+      "ks_pvalue": 0.06932182520405727,
+      "ks_statistic": 0.041,
+      "psi": 0.011139952207269046
+    }
+  },
+  "reference_mean": -0.05513495287267041,
+  "reference_rows": 2000,
+  "seed": 42
+}

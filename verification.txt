@@ -1,0 +1,11 @@
+Local verification. Not a hosted CI result.
+
+test_extreme_values_included (test_demo.ExperimentTests) ... ok
+test_identical_psi (test_demo.ExperimentTests) ... ok
+test_output_matches_returned_result (test_demo.ExperimentTests) ... ok
+test_shift_detected_descriptively (test_demo.ExperimentTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.003s
+
+OK
