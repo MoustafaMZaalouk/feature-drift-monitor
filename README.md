@@ -1,5 +1,9 @@
 # Feature Drift Monitor
 
+[![CI](https://github.com/MoustafaMZaalouk/feature-drift-monitor/workflows/Reproducible%20project%20checks/badge.svg)](https://github.com/MoustafaMZaalouk/feature-drift-monitor/blob/main/.github/workflows/test.yml)
+
+*Live workflow status, not a production-readiness or model-quality rating.*
+
 Measure a known synthetic input shift with training-fitted histogram bins, PSI and a two-sample KS statistic.
 
 A small educational project prepared with AI assistance for Moustafa Zaalouk's portfolio. This is new demonstration code, not a claim about past employment, research, clients or production deployment. It does not reuse another person's project under a different name.
